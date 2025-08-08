@@ -1,0 +1,25 @@
+{
+    "name": "langchain-xero-ts-example",
+    "version": "0.0.1",
+    "description": "TypeScript example of LangChain integration with Xero MCP Server.",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+      "start": "ts-node index.ts",
+      "build": "tsc"
+    },
+    "author": "XeroAPI",
+    "license": "MIT",
+    "dependencies": {
+      "@langchain/core": "^0.3.67",
+      "@langchain/langgraph": "^0.4.3",
+      "@langchain/openai": "^0.6.4",
+      "@langchain/mcp-adapters": "^0.6.0",
+      "dotenv": "^16.4.5"
+    },
+    "devDependencies": {
+      "@types/node": "^20.14.9",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.5.3"
+    }
+  }

@@ -1,0 +1,15 @@
+# Core dependencies for OpenAI Agents SDK integration with Xero MCP Server
+openai-agents>=0.1.0
+python-dotenv>=1.0.0
+
+# Runtime dependencies (these are used by the script)
+asyncio-helpers>=0.1.0
+
+# Note: The script also requires Node.js and npm/npx for the Xero MCP Server
+# Install Node.js from https://nodejs.org/
+# The Xero MCP Server (@xeroapi/xero-mcp-server@latest) will be installed automatically via npx
+
+# Environment variables required:
+# - OPENAI_API_KEY: Your OpenAI API key
+# - XERO_CLIENT_ID: Your Xero app client ID  
+# - XERO_CLIENT_SECRET: Your Xero app client secret

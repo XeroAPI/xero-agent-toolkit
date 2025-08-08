@@ -1,0 +1,17 @@
+# Xero Google ADK Integration Dependencies
+# Core Google ADK and AI Platform dependencies
+google-adk==1.2.1
+google-cloud-aiplatform==1.96.0
+google-genai==1.19.0
+
+# Environment configuration
+python-dotenv==1.0.1
+
+# Async support (included with Python 3.7+, but explicit for clarity)
+# asyncio - built into Python standard library
+
+# Additional utilities that may be needed
+typing-extensions>=4.0.0
+
+# Development and testing (optional)
+pytest>=7.0.0

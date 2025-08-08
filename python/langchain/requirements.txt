@@ -1,0 +1,21 @@
+# Core LangChain dependencies
+langchain>=0.1.0
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+langchain-core>=0.1.0
+
+# MCP adapter for LangChain
+langchain-mcp-adapters>=0.1.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# OpenAI API
+openai>=1.0.0
+
+# Async support
+asyncio
+
+# Standard library dependencies (included with Python)
+# os
+# typing
